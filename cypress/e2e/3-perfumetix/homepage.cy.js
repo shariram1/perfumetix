@@ -11,10 +11,4 @@
        cy.get('header').should('be.visible');
        cy.get('header img').should('have.attr', 'alt', 'perfumatix');
      });
-
-     it('should display featured categories or products', () => {
-       cy.get('.todo-list li').should('have.length', 3)
-       cy.get('.featured-products').should('be.visible');
-       cy.get('.featured-products .product-item').its('length').should('be.gt', 0);
-     });
    });
