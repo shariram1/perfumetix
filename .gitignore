@@ -1,0 +1,26 @@
+# IntelliJ IDEA-specific files
+.idea/
+*.iml
+
+# Build artifacts
+/out/
+/build/
+.gradle/
+/target/
+cypress/screenshots/
+cypress/videos/
+
+# Node.js dependencies
+/node_modules/
+
+# Log files
+*.log
+
+# Temporary Backup and OS Files
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
