@@ -1,0 +1,25 @@
+{
+  "name": "perfumetix",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shariram1/perfumetix.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shariram1/perfumetix/issues"
+  },
+  "homepage": "https://github.com/shariram1/perfumetix#readme",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.0.0"
+  }
+}
